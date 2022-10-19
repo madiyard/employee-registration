@@ -22,7 +22,7 @@
             </h2>
             <div class="card-body">
 
-                <form th:object="${empl}">
+                <form th:object="${empl}" th:action="@{/employee/insert}" method="post">
                     <div class="form-row">
                         <div class="form-group col">
                             <label for="inputFirstName4">First Name</label>
