@@ -9,7 +9,7 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class employee {
+public class Employee {
 
     private String firstName, lastName;
     private LocalDate birthday;
